@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Início do install - nada a instalar"
+  build:
+    commands:
+      - echo "Build iniciado em $(date)"
+  post_build:
+    commands:
+      - echo "Build finalizado em $(date)"
+
+artifacts:
+  files:
+    - index.html
+    - erro.html
+    - imagens/**/*
+    - Scripts/**/*
+    - appspec.yml
