@@ -1,3 +1,2 @@
 #!/bin/bash
-systemctl start httpd.service
-systemctl enable httpd.service
+echo 'app_start'
