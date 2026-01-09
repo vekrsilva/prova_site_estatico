@@ -1,2 +1,3 @@
 #!/bin/bash
-echo 'app_start'
+echo "ApplicationStart OK"
+exit 0

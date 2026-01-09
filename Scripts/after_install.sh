@@ -1,2 +1,3 @@
 #!/bin/bash
-echo 'after_install'
+echo "AfterInstall OK"
+exit 0

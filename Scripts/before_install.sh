@@ -1,2 +1,3 @@
 #!/bin/bash
-echo 'before_install'
+echo "BeforeInstall OK"
+exit 0
